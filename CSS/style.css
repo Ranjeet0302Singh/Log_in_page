@@ -83,6 +83,13 @@ header ul li a:hover {
     background-color: white;
     color: black;
 }
+
+.container {
+    display: flex;
+flex-wrap: wrap;
+    justify-content: space-around;
+
+}
 .First-section {
     width: 1200px;
     height: auto;
@@ -134,13 +141,6 @@ header ul li a:hover {
 
 .First-section span {
     color: rgb(240, 162, 175);
-}
-
-.container {
-    display: flex;
-
-    justify-content: space-around;
-
 }
 
 .second-section {
