@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+body {
+    background-image: url("../Img/bg2.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* width: 80vw; */
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+    font-family: 'Ubuntu Mono', monospace;
+
+    /* padding:  0px 30px; */
+}
+.logo{
+    width: 120px;
+    /* filter: invert(100%); */
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 20px;
+    /* padding: 0px 20px; */
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+}
+
+header ul li a.active {
+    border-bottom: 2px solid rgb(221, 195, 160);    
+}
+header ul li a:hover {
+    border-bottom: 2px solid rgb(221, 195, 160);
+    color: rgb(221, 195, 160);
+}
+
+.srch {
+    margin-top: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+
+    background: transparent;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0px 35px;
+    color: white;
+    border-top: 2px solid rgb(240, 162, 175);
+    border-bottom: 2px solid rgb(240, 162, 175);
+    border-left: 2px solid rgb(240, 162, 175);
+    border-right: 2px solid rgb(240, 162, 175);
+}
+
+.btn {
+    margin-top: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+
+    width: 100px;
+    height: 40px;
+    background: rgb(240, 162, 175);
+    border: 2px solid rgb(240, 162, 175);
+    color: white;
+    font-size: 15px;
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
+
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.First-section {
+    width: 1200px;
+    height: auto;
+    margin-left: 90px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.First-section .para {
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.First-section h1 {
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.First-section .cnt {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(240, 162, 175);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+.First-section .cnt a {
+    text-decoration: none;
+    color: black;
+}
+
+.cnt:hover {
+    background-color: rgb(221, 195, 160);
+}
+
+.First-section span {
+    color: rgb(240, 162, 175);
+}
+
+.container {
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(221, 195, 160, 0.2)50%, rgba(221, 195, 160, 0.2)50%);
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 70px;
+    margin-right: 120px;
+}
+
+.second-section h2 {
+    width: 220px;
+    text-align: center;
+    color: rgb(240, 162, 175);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.second-section input {
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(240, 162, 175);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+::placeholder {
+    color: white;
+
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: rgb(240, 162, 175);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btnn:hover{
+    background-color: white;
+    color: black;
+
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.second-section .link{
+font-size: 17px;
+padding-top: 20px;
+text-align: center;
+}
+.second-section .link a{
+    text-decoration: none;
+    color: rgb(240, 162, 175);
+}
+.liw{
+    padding-top: 10px;
+
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    /* text-align: center; */
+    font-size: 30px;
+    padding-left: 18px;
+    padding-top: 30px;
+}
+.icons a:hover{
+    color: rgb(240, 162, 175);
+}
